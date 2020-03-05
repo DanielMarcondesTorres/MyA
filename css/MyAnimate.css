@@ -1,0 +1,302 @@
+/* Configs First *****************************************************************************/
+  .MyA{
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  .MyA-lock{animation: none!important;}
+  .MyA-paused{animation-play-state: paused!important;}
+  .mya-OnAfterHover{animation-iteration-count: infinite;}
+  .mya-AfterHover{animation-iteration-count: infinite;}
+  .mya-AfterClick{animation-iteration-count: infinite;}
+  /* duration *****************************************************************************/
+    .myaDuration-00{animation-duration: 0s!important;}
+    .myaDuration-01{animation-duration: .1s!important;}
+    .myaDuration-02{animation-duration: .2s!important;}
+    .myaDuration-03{animation-duration: .3s!important;}
+    .myaDuration-04{animation-duration: .4s!important;}
+    .myaDuration-05{animation-duration: .5s!important;}
+    .myaDuration-06{animation-duration: .6s!important;}
+    .myaDuration-07{animation-duration: .7s!important;}
+    .myaDuration-08{animation-duration: .8s!important;}
+    .myaDuration-09{animation-duration: .9s!important;}
+    .myaDuration-10{animation-duration: 1s!important;}
+    .myaDuration-11{animation-duration: 1.1s!important;}
+    .myaDuration-12{animation-duration: 1.2s!important;}
+    .myaDuration-13{animation-duration: 1.3s!important;}
+    .myaDuration-14{animation-duration: 1.4s!important;}
+    .myaDuration-15{animation-duration: 1.5s!important;}
+    .myaDuration-16{animation-duration: 1.6s!important;}
+    .myaDuration-17{animation-duration: 1.7s!important;}
+    .myaDuration-18{animation-duration: 1.8s!important;}
+    .myaDuration-19{animation-duration: 1.9s!important;}
+    .myaDuration-20{animation-duration: 2s!important;}
+    .myaDuration-21{animation-duration: 2.1s!important;}
+    .myaDuration-22{animation-duration: 2.2s!important;}
+    .myaDuration-23{animation-duration: 2.3s!important;}
+    .myaDuration-24{animation-duration: 2.4s!important;}
+    .myaDuration-25{animation-duration: 2.5s!important;}
+    .myaDuration-26{animation-duration: 2.6s!important;}
+    .myaDuration-27{animation-duration: 2.7s!important;}
+    .myaDuration-28{animation-duration: 2.8s!important;}
+    .myaDuration-29{animation-duration: 2.9s!important;}
+    .myaDuration-30{animation-duration: 3s!important;}
+    .myaDuration-31{animation-duration: 3.1s!important;}
+    .myaDuration-32{animation-duration: 3.2s!important;}
+    .myaDuration-33{animation-duration: 3.3s!important;}
+    .myaDuration-34{animation-duration: 3.4s!important;}
+    .myaDuration-35{animation-duration: 3.5s!important;}
+    .myaDuration-36{animation-duration: 3.6s!important;}
+    .myaDuration-37{animation-duration: 3.7s!important;}
+    .myaDuration-38{animation-duration: 3.8s!important;}
+    .myaDuration-39{animation-duration: 3.9s!important;}
+    .myaDuration-40{animation-duration: 4s!important;}
+    .myaDuration-41{animation-duration: 4.1s!important;}
+    .myaDuration-42{animation-duration: 4.2s!important;}
+    .myaDuration-43{animation-duration: 4.3s!important;}
+    .myaDuration-44{animation-duration: 4.4s!important;}
+    .myaDuration-45{animation-duration: 4.5s!important;}
+    .myaDuration-46{animation-duration: 4.6s!important;}
+    .myaDuration-47{animation-duration: 4.7s!important;}
+    .myaDuration-48{animation-duration: 4.8s!important;}
+    .myaDuration-49{animation-duration: 4.9s!important;}
+    .myaDuration-50{animation-duration: 5s!important;}
+  /* delays *****************************************************************************/
+    .myaDelay-00{animation-delay: 0s!important;}
+    .myaDelay-01{animation-delay: .1s!important;}
+    .myaDelay-01{animation-delay: .2s!important;}
+    .myaDelay-03{animation-delay: .3s!important;}
+    .myaDelay-04{animation-delay: .4s!important;}
+    .myaDelay-05{animation-delay: .5s!important;}
+    .myaDelay-06{animation-delay: .6s!important;}
+    .myaDelay-07{animation-delay: .7s!important;}
+    .myaDelay-08{animation-delay: .8s!important;}
+    .myaDelay-09{animation-delay: .9s!important;}
+    .myaDelay-10{animation-delay: 1s!important;}
+    .myaDelay-11{animation-delay: 1.1s!important;}
+    .myaDelay-12{animation-delay: 1.2s!important;}
+    .myaDelay-13{animation-delay: 1.3s!important;}
+    .myaDelay-14{animation-delay: 1.4s!important;}
+    .myaDelay-15{animation-delay: 1.5s!important;}
+    .myaDelay-16{animation-delay: 1.6s!important;}
+    .myaDelay-17{animation-delay: 1.7s!important;}
+    .myaDelay-18{animation-delay: 1.8s!important;}
+    .myaDelay-19{animation-delay: 1.9s!important;}
+    .myaDelay-20{animation-delay: 2s!important;}
+    .myaDelay-21{animation-delay: 2.1s!important;}
+    .myaDelay-22{animation-delay: 2.2s!important;}
+    .myaDelay-23{animation-delay: 2.3s!important;}
+    .myaDelay-24{animation-delay: 2.4s!important;}
+    .myaDelay-25{animation-delay: 2.5s!important;}
+    .myaDelay-26{animation-delay: 2.6s!important;}
+    .myaDelay-27{animation-delay: 2.7s!important;}
+    .myaDelay-28{animation-delay: 2.8s!important;}
+    .myaDelay-29{animation-delay: 2.9s!important;}
+    .myaDelay-30{animation-delay: 3s!important;}
+    .myaDelay-31{animation-delay: 3.1s!important;}
+    .myaDelay-32{animation-delay: 3.2s!important;}
+    .myaDelay-33{animation-delay: 3.3s!important;}
+    .myaDelay-34{animation-delay: 3.4s!important;}
+    .myaDelay-35{animation-delay: 3.5s!important;}
+    .myaDelay-36{animation-delay: 3.6s!important;}
+    .myaDelay-37{animation-delay: 3.7s!important;}
+    .myaDelay-38{animation-delay: 3.8s!important;}
+    .myaDelay-39{animation-delay: 3.9s!important;}
+    .myaDelay-40{animation-delay: 4s!important;}
+    .myaDelay-41{animation-delay: 4.1s!important;}
+    .myaDelay-42{animation-delay: 4.2s!important;}
+    .myaDelay-43{animation-delay: 4.3s!important;}
+    .myaDelay-44{animation-delay: 4.4s!important;}
+    .myaDelay-45{animation-delay: 4.5s!important;}
+    .myaDelay-46{animation-delay: 4.6s!important;}
+    .myaDelay-47{animation-delay: 4.7s!important;}
+    .myaDelay-48{animation-delay: 4.8s!important;}
+    .myaDelay-49{animation-delay: 4.9s!important;}
+    .myaDelay-50{animation-delay: 5s!important;}
+
+  /* Set How Many Times an Animation Should Run *****************************************************************************/
+    .mya-stopOnHover:hover{animation: none!important;}
+    .mya-stopAfterHover:hover{}
+    .mya-stopOnAfterHover:hover{animation: none!important;}
+    .mya-pauseOnHover:hover{animation-play-state: paused!important;}
+    .mya-pauseAfterHover:hover{}
+    .mya-pauseOnAfterHover:hover{animation-play-state: paused!important;}
+    .mya-stopOnHover{animation-iteration-count: infinite!important;}
+    .mya-stopAfterHover{animation-iteration-count: infinite!important;}
+    .mya-stopOnAfterHover{animation-iteration-count: infinite!important;}
+    .mya-pauseOnHover{animation-iteration-count: infinite!important;}
+    .mya-pauseAfterHover{animation-iteration-count: infinite!important;}
+    .mya-pauseOnAfterHover{animation-iteration-count: infinite!important;}
+    .mya-stopOnClickOnly{animation-iteration-count: infinite!important;}
+    .mya-stopOnClick{animation-iteration-count: infinite!important;}
+    .mya-pauseOnClickOnly{animation-iteration-count: infinite!important;}
+    .mya-pauseOnClick{animation-iteration-count: infinite!important;}
+    .myaCount-1{animation-iteration-count: 1!important;}
+    .myaCount-2{animation-iteration-count: 2!important;}
+    .myaCount-3{animation-iteration-count: 3!important;}
+    .myaCount-4{animation-iteration-count: 4!important;}
+    .myaCount-5{animation-iteration-count: 5!important;}
+    .myaCount-6{animation-iteration-count: 6!important;}
+    .myaCount-7{animation-iteration-count: 7!important;}
+    .myaCount-8{animation-iteration-count: 8!important;}
+    .myaCount-9{animation-iteration-count: 9!important;}
+    .myaCount-10{animation-iteration-count: 10!important;}
+    .myaCount-infinite{animation-iteration-count: infinite!important;}
+
+  /* Run Animation in Reverse Direction or Alternate Cycles *****************************************************************************/
+    /* normal - The animation is played as normal (forwards). This is default */
+    .myaDirection-normal{animation-direction: normal!important;}
+    /* reverse - The animation is played in reverse direction (backwards) */
+    .myaDirection-reverse{animation-direction: reverse!important;}
+    /* alternate - The animation is played forwards first, then backwards */
+    .myaDirection-alternate{animation-direction: alternate!important;}
+    /* alternate-reverse - The animation is played backwards first, then forwards */
+    .myaDirection-alternate-reverse{animation-direction: alternate-reverse!important;}
+
+
+  /* Specify the Speed Curve of the Animation *****************************************************************************/
+    /* ease - Specifies an animation with a slow start, then fast, then end slowly (this is default) */
+    .myaSpeed-linear{animation-timing-function: linear!important;}
+    /* linear - Specifies an animation with the same speed from start to end */
+    .myaSpeed-ease{animation-timing-function: ease!important;}
+    /* ease-in - Specifies an animation with a slow start */
+    .myaSpeed-ease-in{animation-timing-function: ease-in!important;}
+    /* ease-out - Specifies an animation with a slow end */
+    .myaSpeed-ease-out{animation-timing-function: ease-out!important;}
+    /* ease-in-out - Specifies an animation with a slow start and end */
+    .myaSpeed-ease-in-out{animation-timing-function: ease-in-out!important;}
+    /* same - Specifies an animation with a same start and end */
+    .myaSpeed-same{animation-timing-function: cubic-bezier(1, 1, 1, 1)!important}
+
+  /* Specify the fill-mode For an Animation *****************************************************************************/
+    /* none - Default value. Animation will not apply any styles to the element before or after it is executing */
+    .myaFillmode-none{animation-fill-mode: none!important;}
+    /* forwards - The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count) */
+    .myaFillmode-forwards{animation-fill-mode: forwards!important;}
+    /* backwards - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period */
+    .myaFillmode-backwards{animation-fill-mode: backwards!important;}
+    /* both - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions */
+    .myaFillmode-both{animation-fill-mode: both!important;}
+
+/* animations */
+  /* Lamp *****************************************************************************/
+  .mya-lampbox{animation-name: lampbox;}
+  @keyframes lampbox {
+    0%{box-shadow:none;}
+    100%{
+      background: #fff;
+      box-shadow: 10px 10px 40px rgba(255, 255, 255, 1),
+                  10px 10px 60px rgba(0, 255, 255, 1),
+                  10px 10px 80px rgba(255, 0, 255, 1),
+                  10px 10px 105px rgba(255, 0, 0, 0.05),
+                  10px 10px 90px rgba(0, 255, 0, 0.05),
+                  10px 10px 75px rgba(0, 0, 255, 0.05),
+                  10px 10px 60px rgba(0, 255, 0, 0.05),
+                  10px 10px 45px rgba(255, 0, 0, 0.05),
+                  10px 10px 30px rgba(0, 255, 0, 0.05),
+                  10px 10px 15px rgba(0, 0, 255, 0.05),
+
+                  -10px 10px 40px rgba(255, 255, 255, 1),
+                  -10px 10px 60px rgba(0, 255, 255, 1),
+                  -10px 10px 80px rgba(255, 0, 255, 1),
+                  -10px 10px 105px rgba(255, 0, 0, 0.05),
+                  -10px 10px 90px rgba(0, 255, 0, 0.05),
+                  -10px 10px 75px rgba(0, 0, 255, 0.05),
+                  -10px 10px 60px rgba(0, 255, 0, 0.05),
+                  -10px 10px 45px rgba(255, 0, 0, 0.05),
+                  -10px 10px 30px rgba(0, 255, 0, 0.05),
+                  -10px 10px 15px rgba(0, 0, 255, 0.05),
+
+                  10px -10px 40px rgba(255, 255, 255, 1),
+                  10px -10px 60px rgba(0, 255, 255, 1),
+                  10px -10px 80px rgba(255, 0, 255, 1),
+                  10px -10px 105px rgba(255, 0, 0, 0.05),
+                  10px -10px 90px rgba(0, 255, 0, 0.05),
+                  10px -10px 75px rgba(0, 0, 255, 0.05),
+                  10px -10px 60px rgba(0, 255, 0, 0.05),
+                  10px -10px 45px rgba(255, 0, 0, 0.05),
+                  10px -10px 30px rgba(0, 255, 0, 0.05),
+                  10px -10px 15px rgba(0, 0, 255, 0.05),
+
+                  -10px -10px 40px rgba(255, 255, 255, 1),
+                  -10px -10px 60px rgba(0, 255, 255, 1),
+                  -10px -10px 80px rgba(255, 0, 255, 1),
+                  -10px -10px 105px rgba(255, 0, 0, 0.05),
+                  -10px -10px 90px rgba(0, 255, 0, 0.05),
+                  -10px -10px 75px rgba(0, 0, 255, 0.05),
+                  -10px -10px 60px rgba(0, 255, 0, 0.05),
+                  -10px -10px 45px rgba(255, 0, 0, 0.05),
+                  -10px -10px 30px rgba(0, 255, 0, 0.05),
+                  -10px -10px 15px rgba(0, 0, 255, 0.05);
+    }
+  }
+
+
+  /* rotation *****************************************************************************/
+  .mya-clockwisespin{animation-name: clockwisespin;}
+  @keyframes clockwisespin {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+
+  .mya-anticlockwisespin{animation-name: anticlockwisespin;}
+  @keyframes anticlockwisespin {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+  }
+
+
+  .mya-rotateInDownLeft{animation-name: rotateInDownLeft;}
+  @keyframes rotateInDownLeft {
+    from {
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+      -webkit-transform: rotate3d(0, 0, 1, -45deg);
+      transform: rotate3d(0, 0, 1, -45deg);
+      opacity: 0;
+    }
+
+    to {
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+      -webkit-transform:;
+      transform:;
+      opacity: 1;
+    }
+  }
+
+  .mya-myatest{z-index: 1000;animation-name: myatest;}
+  @keyframes myatest {
+    from {
+      -webkit-transform: rotate3d(0, 1, 0, 0deg);
+      transform: rotate3d(0, 1, 0, 0deg);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+    }
+    to {
+      -webkit-transform: rotate3d(1, 1, 1, 360deg);
+      transform: rotate3d(1, 1, 1, 360deg);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+    }
+  }
+
+
+  .mya-myatesta{animation-name: myatesta;}
+  @keyframes myatesta {
+    0%{
+      padding-bottom: 0px;
+      transform: rotate(360deg);
+      border: 1.5px dashed rgba(255, 0, 0, 0.5);
+    }
+    50%{
+      padding-bottom: 17px;
+      transform: rotate(180deg);
+      border: 1.5px dashed rgba(0, 255, 0, 0.5);
+    }
+    100%{
+      padding-bottom: 0px;
+      transform: rotate(0deg);
+      border: 1.5px dashed rgba(0, 0, 255, 0.5);
+    }
+  }

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="MyA/MyAnimation.css">
+  <link rel="stylesheet" href="css/danielcss.css">
+  <title>MyAnimation.css</title>
+</head>
+<body>
+  <div class="modal fade" id="codeModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Aqui estão todas as classes</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div style="word-wrap:break-word;" id="classes"></div>
+        </div>
+        <div class="modal-footer">
+          <h6>Apenas adicione as classes ao elemento</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="toScroll flex-wrap justify-content-center align-items-center" style="height: 100vh; position:relative;">
+    <div class="col-12 d-flex flex-wrap justify-content-center align-items-center">
+      <h1 style="z-index:1;">Abaixe para ver a animação</h1>
+    </div>
+    <div class="MyA mya-updownEs myaDuration-15 myaCount-infinite myaSpeed-same" style="position:absolute;bottom:20%;transform: rotate(135deg) scale(1.5,1.5);height: 100px;width: 100px;display: flex;align-items: center;justify-content: center;background: #ed145b;Border-radius: 360px 30px 360px 360px;box-shadow: inset 0 0 35px #008, inset #ed145b 0 0 10px, 0 0 50px #ed145b, 2px 5px 25px #000;background: linear-gradient(180deg, #ed145b, gray);font-size: 25px;text-shadow: 0 0 20px #000;color: #fff;user-select: none;"></div>
+  </section>
+  <section class="desksize secIn d-flex flex-wrap align-items-stretch principal">
+    <div id="demo" class="border-0 deskSize col-12 col-md-6 bg-white mytest">
+      <button type="button" id="next" class="btn btn-outline-secondary disappear" name="button" style="position:absolute; top:0; left:0;margin:5px;">element config</button>
+      <button type="button" class="btn btn-outline-danger change" data-toggle="modal" data-target="#codeModal" name="button">Code</button>
+      <button type="button" id="conf" class="btn btn-outline-secondary disappear" name="button" style="position:absolute; top:0; right:0;margin:5px;">animation config</button>
+      <div class="col-12 divanima" style="margin-top:55px; z-index:100;">
+        <h1 class="margin-none padding-none">MyAnimation.css</h1>
+        <div class="col-12 margin-none padding-none">
+          <hr class="col-4 border-1 border-fiap padding-none">
+        </div>
+        <h5 class="text-secondary text-center">O css de animação mais completo</h5>
+        <div class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+          <select id="animas" class="tmn select col-10 col-md-7">
+            <optgroup label="Attention Seekers">
+              <option value="mya-bounce">Bounce</option>
+              <option value="mya-getColor">Get Color</option>
+              <option value="mya-lampbox">lampbox</option>
+              <option value="mya-clockwisespin">clockwisespin</option>
+              <option value="mya-anticlockwisespin">anticlockwisespin</option>
+              <option value="mya-myatest">test</option>
+              <option value="mya-heartPulse">Heart Pulse</option>
+              <option value="mya-pulse">Pulse</option>
+              <option value="mya-rotateUpBig">Rotate go up & get big</option>
+            </optgroup>
+            <optgroup label="Appear">
+              <option value="mya-appearMiddle">Appear Middle</option>
+              <option value="mya-zoomIn">Zoom In</option>
+              <option value="mya-appearBlur">Appear in Blur</option>
+              <option value="mya-appearBlurGray">Appear in Blur then Get Color</option>
+            </optgroup>
+            <optgroup label="Disappear">
+              <option value="mya-disappearMiddle">Disppear Middle</option>
+              <option value="mya-zoomOut">Zoom Out</option>
+              <option value="mya-disappearBlur">Disappear in Blur</option>
+            </optgroup>
+            <optgroup label="Rotating Entrances">
+              <option value="mya-rotateIn">Rotate In</option>
+              <option value="mya-rotateInDownLeft">Rotate In Down Left</option>
+              <option value="mya-rotateInDownRight">Rotate In Down Right</option>
+              <option value="mya-rotateInUpLeft">Rotate In Up Left</option>
+              <option value="mya-rotateInUpRight">Rotate In Up Right</option>
+            </optgroup>
+            <optgroup label="Rotating Exits">
+              <option value="mya-rotateOut">Rotate Out</option>
+              <option value="mya-rotateOutDownLeft">Rotate Out Down Left</option>
+              <option value="mya-rotateOutDownRight">Rotate Out Down Right</option>
+              <option value="mya-rotateOutUpLeft">Rotate Out Up Left</option>
+              <option value="mya-rotateOutUpRight">Rotate Out Up Right</option>
+            </optgroup>
+            <optgroup label="Comes In">
+              <option value="mya-comeInTop">Come In Top</option>
+              <option value="mya-comeInTopRight">Come In Top Right</option>
+              <option value="mya-comeInRight">Come In Right</option>
+              <option value="mya-comeInBottomRight">Come In Bottom Right</option>
+              <option value="mya-comeInBottom">Come In Bottom</option>
+              <option value="mya-comeInBottomLeft">Come In Bottom Left</option>
+              <option value="mya-comeInLeft">Come In Left</option>
+              <option value="mya-comeInTopLeft">Come In Top Left</option>
+            </optgroup>
+            <optgroup label="Comes Out">
+              <option value="mya-comeOutTop">Come Out Top</option>
+              <option value="mya-comeOutTopRight">Come Out Top Right</option>
+              <option value="mya-comeOutRight">Come Out Right</option>
+              <option value="mya-comeOutBottomRight">Come Out Bottom Right</option>
+              <option value="mya-comeOutBottom">Come Out Bottom</option>
+              <option value="mya-comeOutBottomLeft">Come Out Bottom Left</option>
+              <option value="mya-comeOutLeft">Come Out Left</option>
+              <option value="mya-comeOutTopLeft">Come Out Top Left</option>
+            </optgroup>
+            <optgroup label="Bouncing Entrances">
+              <option value="mya-bounceInTop">Bounce In Top</option>
+              <option value="mya-bounceInTopRight">Bounce In Top Right</option>
+              <option value="mya-bounceInRight">Bounce In Right</option>
+              <option value="mya-bounceInBottomRight">Bounce In Bottom Right</option>
+              <option value="mya-bounceInBottom">Bounce In Bottom</option>
+              <option value="mya-bounceInBottomLeft">Bounce In Bottom Left</option>
+              <option value="mya-bounceInLeft">Bounce In Left</option>
+              <option value="mya-bounceInTopLeft">Bounce In Top Left</option>
+            </optgroup>
+            <optgroup label="Bouncing Exits">
+              <option value="mya-bounceOutTop">Bounce Out Top</option>
+              <option value="mya-bounceOutTopRight">Bounce Out Top Right</option>
+              <option value="mya-bounceOutRight">Bounce Out Right</option>
+              <option value="mya-bounceOutBottomRight">Bounce Out Bottom Right</option>
+              <option value="mya-bounceOutBottom">Bounce Out Bottom</option>
+              <option value="mya-bounceOutBottomLeft">Bounce Out Bottom Left</option>
+              <option value="mya-bounceOutLeft">Bounce Out Left</option>
+              <option value="mya-bounceOutTopLeft">Bounce Out Top Left</option>
+            </optgroup>
+            <optgroup label="Slides In">
+              <option value="mya-slideInTop">Slide In Top</option>
+              <option value="mya-slideInTopRight">Slide In Top Right</option>
+              <option value="mya-slideInRight">Slide In Right</option>
+              <option value="mya-slideInBottomRight">Slide In Bottom Right</option>
+              <option value="mya-slideInBottom">Slide In Bottom</option>
+              <option value="mya-slideInBottomLeft">Slide In Bottom Left</option>
+              <option value="mya-slideInLeft">Slide In Left</option>
+              <option value="mya-slideInTopLeft">Slide In Top Left</option>
+            </optgroup>
+            <optgroup label="Slides Out">
+              <option value="mya-slideOutTop">Slide Out Top</option>
+              <option value="mya-slideOutTopRight">Slide Out Top Right</option>
+              <option value="mya-slideOutRight">Slide Out Right</option>
+              <option value="mya-slideOutBottomRight">Slide Out Bottom Right</option>
+              <option value="mya-slideOutBottom">Slide Out Bottom</option>
+              <option value="mya-slideOutBottomLeft">Slide Out Bottom Left</option>
+              <option value="mya-slideOutLeft">Slide Out Left</option>
+              <option value="mya-slideOutTopLeft">Slide Out Top Left</option>
+            </optgroup>
+            <optgroup label="Slides To">
+              <option value="mya-slideToTop">Slide To Top</option>
+              <option value="mya-slideToTopRight">Slide To Top Right</option>
+              <option value="mya-slideToRight">Slide To Right</option>
+              <option value="mya-slideToBottomRight">Slide To Bottom Right</option>
+              <option value="mya-slideToBottom">Slide To Bottom</option>
+              <option value="mya-slideToBottomLeft">Slide To Bottom Left</option>
+              <option value="mya-slideToLeft">Slide To Left</option>
+              <option value="mya-slideToTopLeft">Slide To Top Left</option>
+            </optgroup>
+            <optgroup label="Shake">
+              <option value="mya-shakeX">Shake X</option>
+              <option value="mya-shakeY">Shake Y</option>
+              <option value="mya-shakeZ">Shake Z</option>
+              <option value="mya-swing">Swing</option>
+            </optgroup>
+            <optgroup label="Important">
+              <option value="mya-importantPrimary">Important primary</option>
+              <option value="mya-importantSecondary">Important Secondary</option>
+              <option value="mya-importantSuccess">Important Success</option>
+              <option value="mya-importantDanger">Important Danger</option>
+              <option value="mya-importantWarning">Important Warning</option>
+              <option value="mya-importantInfo">Important Info</option>
+              <option value="mya-importantLight">Important Light</option>
+              <option value="mya-importantDark">Important Dark</option>
+            </optgroup>
+          </select>
+          <button class="tmn col-10 col-md-3 btn btn-fiap" id="animars">Animar</button>
+        </div>
+        <p class="padding-none margin-none col-12 text-center">Criação de <a href="https://github.com/DanielMarcondesTorres">Daniel Torres</a></p>
+        <div class="padding-none margin-none col-12 text-center">
+          <div class="dropdown">
+            <span class="dropbtn text-primary">Download MyA</span>
+            <div class="dropdown-content text-center">
+              <a href="MyA/MyAnimation.js" download>MyA.<span class="text-fiap">js</span></a>
+              <a href="MyA/MyAnimation.css" download>MyA.<span class="text-fiap">css</span></a>
+              <a href="MyA/MyAnimation.min.js" download>MyA.min.<span class="text-fiap">js</span></a>
+              <a href="MyA/MyAnimation.min.css" download>MyA.min.<span class="text-fiap">css</span></a>
+              <div class="" style="position:relative;"><hr><p style="position:absolute; top:-12px; margin-left: 40%; width: 20%;margin-right: 40%; background:#f9f9f9;" class="text-center">ou</p></div>
+              <a href="MyA.zip" download>MyA.<span class="text-fiap">zip</span></a>
+              <div class="" style="position:relative;"><hr><p style="position:absolute; top:-12px; margin-left: 40%; width: 20%;margin-right: 40%; background:#f9f9f9;" class="text-center">ou</p></div>
+              <a id="learn" href="#dlearn" class="btnnull">Como Usar</a>
+            </div>
+            <style media="screen">
+              .btnnull{
+                  cursor: pointer;
+              }
+            </style>
+          </div>
+           ou <a href="https://github.com/DanielMarcondesTorres/MyA">Ver no GitHub</a>
+        </div>
+      </div>
+      <div class="col-12 example pb-5">
+        <h1 id="animadors">MyA</h1>
+        <h1 id="animadorscopy">MyA</h1>
+      </div>
+      <div class="bg-white disappear" style="height: 100%; width: 100%; position:absolute; top:0; left: 0; margin-top:48px;"></div>
+    </div>
+    <div class="deskSize pt-5 pb-5 pt-md-3 pb-md-3 order-2 order-md-1 col-12 col-md-6 bg-dark">
+      <h5 class="text-white col-12 mt-md-5">Aqui você pode alterar o css do elemento</h5>
+      <textarea placeholder="insere the element css" style="resize: none;" class="inpu col-12 rounded" id="mycss" name="name" rows="15" cols="80"></textarea>
+      <h5 class="text-white col-12 mt-5 ">Aqui você pode alterar o texto do elemento</h5>
+      <input class="inpu col-12 mt-2 rounded p-3" id="text" type="text" name="" value="MyA" placeholder="Insere the text to element">
+      <button class="col-12 mt-2 rounded btn-fiap size-2 text-white" type="button" id="ocss" name="button">Enviar ao elemento</button>
+    </div>
+    <div id="multy" class="bg-dark d-none hidered col-12 col-md-6">
+      <section class="deskSizehide margin-none d-flex flex-wrap justify-content-center align-items-center">
+        <div class="col-12 padding-none d-flex flex-wrap">
+          <label class="order-2 order-md-1 margins-none col-12 text-white" for="animarsm">Segure o control para multiseleção</label>
+          <select multiple id="animarsm" class="order-2 order-md-3 margins-none tmna selectm col-12">
+
+          </select>
+          <button class="order-1 order-md-3 margins-none tmn col-12 mt-2 rounded btn-fiap size-2 text-white" type="button" id="animMult" name="button">Animar o elemento</button>
+        </div>
+      </section>
+    </div>
+    <div id="dlearn" class="bg-dark full hidered1 d-none col-12 col-md-6">
+      <section class="deskSizehide margin-none d-flex flex-wrap justify-content-center align-items-center">
+        <span id="fech" class="text-white close" style="position:absolute; top:0; right:0; padding:20px; font-size:1.5rem;">&times;</span>
+        <div class="text-white">
+          <h2>Ook Vamos aprender a utilizar o Mya</h2>
+          <ul>
+            <li>Primeiro de tudo, baixe os arquivos</li>
+            <li>Você tem duas opções, "MyA.zip" baixar arquivos separados</li>
+            <li>Recomendo a opção do arquivo minificado (.min)</li>
+            <li>Agora você tem dois arquivos, coloque-os na sua pasta</li>
+            <li>agora você tem que adicionar ao código fonte</li>
+            <li>O primeiro (MyAnimation.min.css) Adicione no header como abaixo</li>
+            <li><span><</span>link rel="stylesheet" href="MyA/MyAnimation.min.css"></li>
+            <li>O segundo vai antes do término do <span><</span>/html> como abaixo</li>
+            <li><span><</span>script type="text/javascript" src="MyA/MyAnimation.js"></script></li>
+          </ul>
+          <h2>Agora vamos aprender como usar as animações</h2>
+          <ul>
+            <li>Nossa biblioteca é de uso simples, apenas selecione a animação</li>
+            <li>Então clique no botão "Code"</li>
+            <li>Pronto ai você tem todas as classes que precisa</li>
+            <li>Agora adicione tudo no seu elemento dentro do class=""</li>
+            <li>Você pode também ler o arquivo (MyAnimation.css) para entender melhor</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="deskSize pt-5 pb-5 pt-md-3 pb-md-3 order-1 order-md-2 col-12 col-md-6 bg-dark d-flex flex-wrap justify-content-center align-items-center">
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui você pode configurar o delay até o início da animação</h5>
+        <select id="delay" class="anim tmn col-12 col-md-11 inpu">
+          <option value="myaDelay-00">Delay de 0.0s</option>
+          <option value="myaDelay-01">Delay de 0.1s</option>
+          <option value="myaDelay-02">Delay de 0.2s</option>
+          <option value="myaDelay-03">Delay de 0.3s</option>
+          <option value="myaDelay-04">Delay de 0.4s</option>
+          <option value="myaDelay-05">Delay de 0.5s</option>
+          <option value="myaDelay-06">Delay de 0.6s</option>
+          <option value="myaDelay-07">Delay de 0.7s</option>
+          <option value="myaDelay-08">Delay de 0.8s</option>
+          <option value="myaDelay-09">Delay de 0.9s</option>
+          <option value="myaDelay-10">Delay de 1.0s</option>
+          <option value="myaDelay-11">Delay de 1.1s</option>
+          <option value="myaDelay-12">Delay de 1.2s</option>
+          <option value="myaDelay-13">Delay de 1.3s</option>
+          <option value="myaDelay-14">Delay de 1.4s</option>
+          <option value="myaDelay-15">Delay de 1.5s</option>
+          <option value="myaDelay-16">Delay de 1.6s</option>
+          <option value="myaDelay-17">Delay de 1.7s</option>
+          <option value="myaDelay-18">Delay de 1.8s</option>
+          <option value="myaDelay-19">Delay de 1.9s</option>
+          <option value="myaDelay-20">Delay de 2.0s</option>
+          <option value="myaDelay-21">Delay de 2.1s</option>
+          <option value="myaDelay-22">Delay de 2.2s</option>
+          <option value="myaDelay-23">Delay de 2.3s</option>
+          <option value="myaDelay-24">Delay de 2.4s</option>
+          <option value="myaDelay-25">Delay de 2.5s</option>
+          <option value="myaDelay-26">Delay de 2.6s</option>
+          <option value="myaDelay-27">Delay de 2.7s</option>
+          <option value="myaDelay-28">Delay de 2.8s</option>
+          <option value="myaDelay-29">Delay de 2.9s</option>
+          <option value="myaDelay-30">Delay de 3.0s</option>
+          <option value="myaDelay-31">Delay de 3.1s</option>
+          <option value="myaDelay-32">Delay de 3.2s</option>
+          <option value="myaDelay-33">Delay de 3.3s</option>
+          <option value="myaDelay-34">Delay de 3.4s</option>
+          <option value="myaDelay-35">Delay de 3.5s</option>
+          <option value="myaDelay-36">Delay de 3.6s</option>
+          <option value="myaDelay-37">Delay de 3.7s</option>
+          <option value="myaDelay-38">Delay de 3.8s</option>
+          <option value="myaDelay-39">Delay de 3.9s</option>
+          <option value="myaDelay-40">Delay de 4.0s</option>
+          <option value="myaDelay-41">Delay de 4.1s</option>
+          <option value="myaDelay-42">Delay de 4.2s</option>
+          <option value="myaDelay-43">Delay de 4.3s</option>
+          <option value="myaDelay-44">Delay de 4.4s</option>
+          <option value="myaDelay-45">Delay de 4.5s</option>
+          <option value="myaDelay-46">Delay de 4.6s</option>
+          <option value="myaDelay-47">Delay de 4.7s</option>
+          <option value="myaDelay-48">Delay de 4.8s</option>
+          <option value="myaDelay-49">Delay de 4.9s</option>
+          <option value="myaDelay-50">Delay de 5.0s</option>
+        </select>
+      </form>
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui Você pode configurar o tempo de animação</h5>
+        <select id="duration"  class="anim tmn col-12 col-md-11 inpu">
+          <option value="myaDuration-01">Duração de 0.1s</option>
+          <option value="myaDuration-02">Duração de 0.2s</option>
+          <option value="myaDuration-03">Duração de 0.3s</option>
+          <option value="myaDuration-04">Duração de 0.4s</option>
+          <option value="myaDuration-05">Duração de 0.5s</option>
+          <option value="myaDuration-06">Duração de 0.6s</option>
+          <option selected value="myaDuration-07">Duração de 0.7s</option>
+          <option value="myaDuration-08">Duração de 0.8s</option>
+          <option value="myaDuration-09">Duração de 0.9s</option>
+          <option value="myaDuration-10">Duração de 1.0s</option>
+          <option value="myaDuration-11">Duração de 1.1s</option>
+          <option value="myaDuration-12">Duração de 1.2s</option>
+          <option value="myaDuration-13">Duração de 1.3s</option>
+          <option value="myaDuration-14">Duração de 1.4s</option>
+          <option value="myaDuration-15">Duração de 1.5s</option>
+          <option value="myaDuration-16">Duração de 1.6s</option>
+          <option value="myaDuration-17">Duração de 1.7s</option>
+          <option value="myaDuration-18">Duração de 1.8s</option>
+          <option value="myaDuration-19">Duração de 1.9s</option>
+          <option value="myaDuration-20">Duração de 2.0s</option>
+          <option value="myaDuration-21">Duração de 2.1s</option>
+          <option value="myaDuration-22">Duração de 2.2s</option>
+          <option value="myaDuration-23">Duração de 2.3s</option>
+          <option value="myaDuration-24">Duração de 2.4s</option>
+          <option value="myaDuration-25">Duração de 2.5s</option>
+          <option value="myaDuration-26">Duração de 2.6s</option>
+          <option value="myaDuration-27">Duração de 2.7s</option>
+          <option value="myaDuration-28">Duração de 2.8s</option>
+          <option value="myaDuration-29">Duração de 2.9s</option>
+          <option value="myaDuration-30">Duração de 3.0s</option>
+          <option value="myaDuration-31">Duração de 3.1s</option>
+          <option value="myaDuration-32">Duração de 3.2s</option>
+          <option value="myaDuration-33">Duração de 3.3s</option>
+          <option value="myaDuration-34">Duração de 3.4s</option>
+          <option value="myaDuration-35">Duração de 3.5s</option>
+          <option value="myaDuration-36">Duração de 3.6s</option>
+          <option value="myaDuration-37">Duração de 3.7s</option>
+          <option value="myaDuration-38">Duração de 3.8s</option>
+          <option value="myaDuration-39">Duração de 3.9s</option>
+          <option value="myaDuration-40">Duração de 4.0s</option>
+          <option value="myaDuration-41">Duração de 4.1s</option>
+          <option value="myaDuration-42">Duração de 4.2s</option>
+          <option value="myaDuration-43">Duração de 4.3s</option>
+          <option value="myaDuration-44">Duração de 4.4s</option>
+          <option value="myaDuration-45">Duração de 4.5s</option>
+          <option value="myaDuration-46">Duração de 4.6s</option>
+          <option value="myaDuration-47">Duração de 4.7s</option>
+          <option value="myaDuration-48">Duração de 4.8s</option>
+          <option value="myaDuration-49">Duração de 4.9s</option>
+          <option value="myaDuration-50">Duração de 5.0s</option>
+        </select>
+      </form>
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui você pode configurar quantas vezes e quando a animação será feita</h5>
+        <select id="count" class="tmn col-12 col-md-11 inpu">
+          <option value="myaCount-1">Fazer 1 vez</option>
+          <option value="myaCount-2">Fazer 2 vezes</option>
+          <option value="myaCount-3">Fazer 3 vezes</option>
+          <option value="myaCount-4">Fazer 4 vezes</option>
+          <option value="myaCount-5">Fazer 5 vezes</option>
+          <option value="myaCount-6">Fazer 6 vezes</option>
+          <option value="myaCount-7">Fazer 7 vezes</option>
+          <option value="myaCount-8">Fazer 8 vezes</option>
+          <option value="myaCount-9">Fazer 9 vezes</option>
+          <option value="myaCount-10">Fazer 10 vezes</option>
+          <optgroup label="Especial Counts">
+            <option value="myaCount-infinite">Fazer infinitas vezes</option>
+          </optgroup>
+          <optgroup label="Animar other element">
+            <option value="myaOnClickTo-">Quando clicado</option>
+            <option value="myaOnClickToOnly-">Apenas 1 vez quando clicado</option>
+            <option value="myaOnHoverToOnly-">Apenas 1 vez no hover</option>
+            <option value="myaOnHoverTo-">No Hover</option>
+          </optgroup>
+            <optgroup label="Anime">
+              <option value="mya-onScroll">Animar no Scroll</option>
+              <option value="mya-onScrollOnly">Animar no Scroll Apenas uma vez</option>
+              <option value="mya-Hover">Animar no Hover</option>
+              <option value="mya-HoverOnly">Animar no Hover Apenas uma vez</option>
+              <option value="mya-AfterHover">Animar depois Hover</option>
+              <option value="mya-OnAfterHover">Animar no depois Hover</option>
+              <option value="mya-Click">Animar no Click</option>
+              <option value="mya-ClickOnly">Animar no Click Apenas uma vez</option>
+              <option value="mya-AfterClick">Animar depois Click</option>
+            </optgroup>
+            <optgroup label="Stop">
+              <option value="mya-stopOnHover">Stop no Hover</option>
+              <option value="mya-stopAfterHover">Stop depois do Hover</option>
+              <option value="mya-stopOnAfterHover">Stop no depois do Hover</option>
+              <option value="mya-stopOnClickOnly">Stop quando clicado Apenas uma vez</option>
+              <option value="mya-stopOnClick">Play/Stop quando clicado</option>
+            </optgroup>
+            <optgroup label="Pause">
+              <option value="mya-pauseOnHover">Pause no Hover</option>
+              <option value="mya-pauseAfterHover">Pause depois do Hover</option>
+              <option value="mya-pauseOnAfterHover">Pause no depois Hover</option>
+              <option value="mya-pauseOnClickOnly">Pause quando clicado Apenas uma vez</option>
+              <option value="mya-pauseOnClick">Play/Pause quando clicado</option>
+            </optgroup>
+        </select>
+      </form>
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui você pode configurar a direção da animação</h5>
+        <select id="direct" class="anim tmn col-12 col-md-11 inpu">
+          <option value="myaDirection-normal">Normal</option>
+          <option value="myaDirection-reverse">Invertido</option>
+          <option value="myaDirection-alternate">Alternado</option>
+          <option value="myaDirection-alternate-reverse">Invertido Alternado</option>
+        </select>
+      </form>
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui você pode configurar a velocidade da animação</h5>
+        <select id="speed" class="anim tmn col-12 col-md-11 inpu">
+          <option value="myaSpeed-linear">Velocidade linear</option>
+          <option value="myaSpeed-ease">Velocidade ease</option>
+          <option value="myaSpeed-ease-in">Velocidade ease-in</option>
+          <option value="myaSpeed-ease-out">Velocidade ease-out</option>
+          <option value="myaSpeed-ease-in-out">Velocidade ease-in-out</option>
+          <option value="myaSpeed-same">Velocidade igual início-fim</option>
+        </select>
+      </form>
+      <form class="col-12 padding-none margin-none d-flex flex-wrap justify-content-center">
+        <h5 class="text-white text-left col-12">Aqui você pode configurar o fill mode da animação</h5>
+        <select id="fill" class="anim tmn col-12 col-md-11 inpu">
+          <option value="myaFillmode-none"> Fill Mode none</option>
+          <option value="myaFillmode-forwards"> Fill Mode forwards</option>
+          <option value="myaFillmode-backwards"> Fill Mode backwards</option>
+          <option value="myaFillmode-both"> Fill Mode both</option>
+        </select>
+      </form>
+    </div>
+  </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="MyA/MyAnimation.js"></script>
+</html>
