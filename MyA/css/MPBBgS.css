@@ -1,0 +1,191 @@
+/* Paddings */
+.padding-none{padding: 0!important;}
+.p-none{padding: none;}
+.p-default{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.p-input-none:placeholder-shown {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+.p-input-none:not(:placeholder-shown) {
+  padding-bottom: 3px;
+  padding-left: 3px;
+  transition: 0.5s;
+}
+.p-input-none-2:placeholder-shown {
+  padding-bottom: 20px;
+  padding-left: 15px;
+  transition: 0.5s;
+}
+.p-input-none-2:not(:placeholder-shown) {
+  padding-bottom: 3px;
+  padding-left: 3px;
+  transition: 0.5s;
+}
+/* Margins */
+.margin-none{margin: 0!important;}
+.m-none{margin: none;}
+
+/* Borders */
+.border-none{border: none!important;}
+.b-none{border: none;}
+.rounded-none{border-radius: 0!important;}
+
+/* border size */
+.border-1{border-width: 1px!important;}
+.border-2{border-width: 2px!important;}
+.border-3{border-width: 3px!important;}
+.border-4{border-width: 4px!important;}
+.border-5{border-width: 5px!important;}
+.border-6{border-width: 6px!important;}
+.border-7{border-width: 7px!important;}
+
+/* border color */
+.border-fiap {background-image: -webkit-linear-gradient(0deg, #fff, #ed145b, #fff);}
+.border-fiap-dark{border-color: #610725!important;}
+
+/* backgrounds */
+
+.bg-fiap{background: #ed145b;}
+.bg-fiap-dark{background: #610725;}
+.bg-black{background: #000;}
+.bg-none{background: none;}
+
+/* text shadows */
+.shadow-black{text-shadow: 0.1em 0.1em 0.2em black;}
+.shadow-white{text-shadow: 0.1em 0.1em 0.2em white;}
+
+/* box shadows */
+.box-shadow-black{box-shadow: 5px 5px 5px grey;}
+.box-shadow-fiap{box-shadow: 5px 5px 5px #ed145b;}
+.box-shadow-fiap-dark{box-shadow: 5px 5px 10px #610725;}
+
+.box-shadowmedium-fiap{box-shadow: 7.5px 7.5px 5px #ed145b;}
+.box-shadowmedium-fiap-dark{box-shadow: 7.5px 7.5px 10px #610725;}
+.box-shadowmedium-black{box-shadow: 7.5px 7.5px 10px #631f41;}
+
+.box-shadowbold-black{box-shadow: 10px 10px 5px grey;}
+.box-shadowbold-fiap{box-shadow: 10px 10px 5px #ed145b;}
+.box-shadowbold-fiap-dark{box-shadow: 10px 10px 10px #610725;}
+
+
+/* Buttons */
+
+.btn-dark-trans{
+  background: rgba(52, 58, 64,0.85);
+}
+.btn-rotate-actv {
+  -webkit-transform: rotate(180deg) scale(1, 1);
+  -moz-transform: rotate(180deg) scale(1, 1);
+  -ms-transform: rotate(180deg) scale(1, 1);
+  transform: rotate(180deg) scale(1, 1);
+  transition: 0.5s;
+}
+.btn-rotate-dsctv {
+  -webkit-transform: rotate(0deg) scale(1, 1);
+  -moz-transform: rotate(0deg) scale(1, 1);
+  -ms-transform: rotate(0deg) scale(1, 1);
+  transform: rotate(0deg) scale(1, 1);
+  transition: 0.3s;
+}
+.btn-null{
+  border: none;
+  border-bottom: #000 2px solid;
+  background: none;
+}
+
+.btn-fiap-2{
+  border: none;
+  border-bottom: #000 2px solid;
+  border-top: #000 2px solid;
+  background: #810725;
+
+}
+.btn-fiap-2:hover{
+  border: #000 2px solid;
+  background: #ed145b;
+  font-weight: 700;
+}
+.btn-null-white{
+  border: none;
+  border-bottom: #fff 2px solid;
+  background: none;
+
+  color: #fff;
+  cursor: pointer;
+}
+.btn-null-fiap-dark{
+  cursor: pointer;
+  border: none;
+  border-bottom: #610725 2px solid;
+  background: none;
+
+  color: #610725;
+}
+.btn-null-null-dark{
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #610725;
+}
+.btn-null-null{
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #fff;
+}
+.outline-none{
+  outline: none!important;
+}
+.btn-null-fiap{
+  cursor: pointer;
+  border: none;
+  border-bottom: #ed145b 3px solid;
+  background: none;
+  color: #aaa;
+}
+.btn-null-fiap-2{
+  cursor: pointer;
+  border: none;
+  border-bottom: #ed145b 3px solid;
+  border-top: #ed145b 3px solid;
+  background: none;
+  color: #aaa;
+}
+.btn-null-fiap-dark-2{
+  cursor: pointer;
+  border: none;
+  border-bottom: #610725 3px solid;
+  border-top: #610725 3px solid;
+  background: none;
+  color: #aaa;
+}
+.btn-fiap{
+  color: #212529;
+  background: none;
+  border: 1px solid #ed145b;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all .5s;
+}
+.btn-fiap:hover{
+  color: #fff;
+  background: #ed145b;
+  box-shadow: 0 0 5px #ed145b, 0 0 10px #000;
+  cursor: pointer;
+}
+.btn-google
+{
+  background: #f77;
+}
+.btn-facebook
+{
+  background: #77f;
+}
+.btn-email
+{
+ background: #777;
+}

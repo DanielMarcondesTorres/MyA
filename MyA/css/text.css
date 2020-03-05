@@ -1,0 +1,93 @@
+@IMPORT <link href="https://fonts.googleapis.com/css?family=Oswald:700|Slabo+27px|Roboto" rel="stylesheet">;
+.fonte{font-family: 'Roboto', sans-serif;}
+.font2{font: 25px/40px 'Gotham HTF Light';}
+.font1{font-family: 'Oswald', sans-serif;}
+.text-title{
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+.nav-text{letter-spacing: 1px;}
+
+.text-fiap{color: #ed145b;}
+.text-underline{text-decoration: underline;}
+.text-black{color: #000!important;}
+
+
+
+/* Text Sizes */
+
+.size-10{font-size: 10vw;}
+.size-9{font-size: 9vw;}
+.size-8{font-size: 8vw;}
+.size-7{font-size: 7vw;}
+.size-6{font-size: 6vw;}
+.size-5{font-size: 5vw;}
+.size-4{font-size: 4vw;}
+.size-3{font-size: 3vw;}
+.size-2{font-size: 2vw;}
+.size-1{font-size: 1vw;}
+@media only screen and (max-width: 1200px) {
+  .size-10{font-size: 11vw;}
+  .size-9{font-size: 10vw;}
+  .size-8{font-size: 9vw;}
+  .size-7{font-size: 8vw;}
+  .size-6{font-size: 7vw;}
+  .size-5{font-size: 6vw;}
+  .size-4{font-size: 5vw;}
+  .size-3{font-size: 4vw;}
+  .size-2{font-size: 3vw;}
+  .size-1{font-size: 2vw;}
+}
+@media only screen and (max-width: 992px) {
+  .size-10{font-size: 12vw;}
+  .size-9{font-size: 11vw;}
+  .size-8{font-size: 10vw;}
+  .size-7{font-size: 9vw;}
+  .size-6{font-size: 8vw;}
+  .size-5{font-size: 7vw;}
+  .size-4{font-size: 6vw;}
+  .size-3{font-size: 5vw;}
+  .size-2{font-size: 4vw;}
+  .size-1{font-size: 3vw;}
+}
+@media only screen and (max-width: 768px) {
+  .size-10{font-size: 13vw;}
+  .size-9{font-size: 12vw;}
+  .size-8{font-size: 11vw;}
+  .size-7{font-size: 10vw;}
+  .size-6{font-size: 9vw;}
+  .size-5{font-size: 8vw;}
+  .size-4{font-size: 7vw;}
+  .size-3{font-size: 6vw;}
+  .size-2{font-size: 5vw;}
+  .size-1{font-size: 4vw;}
+}
+@media only screen and (max-width: 576px) {
+  .size-10{font-size: 14vw;}
+  .size-9{font-size: 13vw;}
+  .size-8{font-size: 12vw;}
+  .size-7{font-size: 11vw;}
+  .size-6{font-size: 10vw;}
+  .size-5{font-size: 9vw;}
+  .size-4{font-size: 8vw;}
+  .size-3{font-size: 7vw;}
+  .size-2{font-size: 6vw;}
+  .size-1{font-size: 5vw;}
+}
+@media only screen and (max-height: 450px) {
+  .size-10{font-size: 10vw;}
+  .size-9{font-size: 9vw;}
+  .size-8{font-size: 8vw;}
+  .size-7{font-size: 7vw;}
+  .size-6{font-size: 6vw;}
+  .size-5{font-size: 5vw;}
+  .size-4{font-size: 4vw;}
+  .size-3{font-size: 3vw;}
+  .size-2{font-size: 2vw;}
+  .size-1{font-size: 1vw;}
+}
+.size-auto-big{font-size: 1vw;font-size: 6.5vw;}
+.size-auto-medium{font-size: 1vw;font-size: 4.5vw;}
+.size-auto-medium-big{font-size: 2.5vw;font-size: 4.5vw;}
+.size-auto-small{font-size: 1vw;font-size: 2.5vw;}
